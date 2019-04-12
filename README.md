@@ -15,7 +15,7 @@ The project brings tangible benefits not only to the digital world but also to t
 <tr><td>Instamine protection</td><td>First 2000 blocks</td></tr>
 <tr><td>Hashing algorithm</td><td>Keccak</td></tr>
 <tr><td>POS starting block</td><td>2001</td></tr>
-<tr><td>POS phase duration</td><td>Unlimited</td></tr>
+<tr><td>POS phase duration</td><td>14,000,000,000</td></tr>
 <tr><td>POS block reward distribution</td><td>SeeSaw</td></tr>
 <tr><td>Premine</td><td>2,000,000,000 BtsCoin</td></tr>
 <tr><td>Blocksize</td><td>1 MB</td></tr>
