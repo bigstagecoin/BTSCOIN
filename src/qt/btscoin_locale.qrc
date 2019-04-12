@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/btscoin_bg.qm</file>
+        <file alias="ca">locale/btscoin_ca.qm</file>
+        <file alias="cs">locale/btscoin_cs.qm</file>
+        <file alias="da">locale/btscoin_da.qm</file>
+        <file alias="de">locale/btscoin_de.qm</file>
+        <file alias="en">locale/btscoin_en.qm</file>
+        <file alias="en_US">locale/btscoin_en_US.qm</file>
+        <file alias="es">locale/btscoin_es.qm</file>
+        <file alias="fi">locale/btscoin_fi.qm</file>
+        <file alias="fr_FR">locale/btscoin_fr_FR.qm</file>
+        <file alias="it">locale/btscoin_it.qm</file>
+        <file alias="ja">locale/btscoin_ja.qm</file>
+        <file alias="ko_KR">locale/btscoin_ko_KR.qm</file>
+        <file alias="nl">locale/btscoin_nl.qm</file>
+        <file alias="pl">locale/btscoin_pl.qm</file>
+        <file alias="pt">locale/btscoin_pt.qm</file>
+        <file alias="pt_BR">locale/btscoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/btscoin_ro_RO.qm</file>
+        <file alias="ru">locale/btscoin_ru.qm</file>
+        <file alias="sk">locale/btscoin_sk.qm</file>
+        <file alias="sv">locale/btscoin_sv.qm</file>
+        <file alias="tr">locale/btscoin_tr.qm</file>
+        <file alias="uk">locale/btscoin_uk.qm</file>
+        <file alias="zh_CN">locale/btscoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/btscoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

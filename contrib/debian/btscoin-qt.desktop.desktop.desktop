@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BtsCoin
+Comment=BtsCoin P2P Cryptocurrency
+Exec=btscoin-qt %u
+Terminal=false
+Type=Application
+Icon=btscoin128
+MimeType=x-scheme-handler/btscoin;
+Categories=Office;Finance;
+Name[ru]=btscoin-qt.desktop.desktop

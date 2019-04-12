@@ -1,0 +1,2 @@
+usr/local/bin/btscoind usr/bin
+usr/local/bin/btscoin-cli usr/bin

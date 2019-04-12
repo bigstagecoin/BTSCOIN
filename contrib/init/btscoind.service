@@ -1,0 +1,26 @@
+[Unit]
+Description=BtsCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=btscoin
+Group=btscoin
+
+Type=forking
+PIDFile=/var/lib/btscoind/btscoind.pid
+
+ExecStart=/usr/bin/btscoind -daemon -pid=/var/lib/btscoind/btscoind.pid \
+          -conf=/etc/btscoin/btscoin.conf -datadir=/var/lib/btscoind
+
+ExecStop=-/usr/bin/btscoin-cli -conf=/etc/btscoin/btscoin.conf \
+         -datadir=/var/lib/btscoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
