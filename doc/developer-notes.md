@@ -412,3 +412,4 @@ Git and github tips
   `git diff --patience commit~:old/file.cpp commit:new/file/name.cpp`, and ignoring everything except the
   moved body of code which should show up as neither `+` or `-` lines. In case it was not a pure move, this may
   even work when combined with the `-w` or `--word-diff` options described above.
+

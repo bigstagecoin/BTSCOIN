@@ -46,8 +46,8 @@ ui->addButton->setVisible(false);
 ui->clearButton->setVisible(false);
 
 #ifdef Q_OS_MAC // Icons on push buttons are very uncommon on Mac
-    ui->addButton->setIcon(QIcon());    
-    ui->clearButton->setIcon(QIcon());    
+    ui->addButton->setIcon(QIcon());
+    ui->clearButton->setIcon(QIcon());
     ui->sendButton->setIcon(QIcon());
 #endif
 

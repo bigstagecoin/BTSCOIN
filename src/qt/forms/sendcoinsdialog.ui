@@ -651,7 +651,7 @@
         <x>0</x>
         <y>0</y>
         <width>830</width>
-        <height>91</height>
+        <height>113</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,1">
@@ -1328,9 +1328,6 @@
      </item>
      <item>
       <widget class="QPushButton" name="clearButton">
-       <property name="enabled">
-        <bool>true</bool>
-       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
          <horstretch>0</horstretch>
@@ -1354,9 +1351,6 @@
      </item>
      <item>
       <widget class="QPushButton" name="addButton">
-       <property name="enabled">
-        <bool>true</bool>
-       </property>
        <property name="toolTip">
         <string>Send to multiple recipients at once</string>
        </property>

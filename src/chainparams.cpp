@@ -97,7 +97,7 @@ public:
         pchMessageStart[0] = 0xa3;
         pchMessageStart[1] = 0x1e;
         pchMessageStart[2] = 0xc7;
-        pchMessageStart[3] = 0x12;        
+        pchMessageStart[3] = 0x12;
         vAlertPubKey = ParseHex("0412a4dd60fbcf288c6e949f66368d5f8d339404e2b80b7696f42a9d715ebb2baf90da0c11b10e5f086bf8d8d20f0afc16da65dea197265d0a5b3c983af8320dd3");
 
         nDefaultPort = 10777;
@@ -113,7 +113,7 @@ public:
         nTargetSpacingSlowLaunch = 1 * 60; // before block 750k
         // nAntiInstamineTime = 50; // 720 blocks with 1 reward for instamine prevention
         nMaturity = 228;
-        nMasternodeCountDrift = 3;        
+        nMasternodeCountDrift = 3;
         nMaxMoneyOut = 14000000000 * COIN;
 
         nStartMasternodePaymentsBlock = 200;
@@ -138,14 +138,14 @@ public:
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        txNew.vout[0].nValue = 50 * COIN;        
+        txNew.vout[0].nValue = 50 * COIN;
         txNew.vout[0].scriptPubKey = CScript() << ParseHex("046bdc4847d0d75d67eeb1d3408823ac43508121410803422c61fb498ff33aa846902447a85e1bd31430bdfc9bb1cf841d9968cdb0384be9c86c9471f45f430a90") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
         genesis.nTime = 1552294334;
-        genesis.nBits = 0x1e0ffff0;        
+        genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 719671;
 
         hashGenesisBlock = genesis.GetHash();
@@ -183,7 +183,7 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "0228344aa5b39cc8fed8a8adcf8fe5616584e6b49b2008f47a166f509a51e7ead9";        
+        strSporkKey = "0228344aa5b39cc8fed8a8adcf8fe5616584e6b49b2008f47a166f509a51e7ead9";
         strObfuscationPoolDummyAddress = "BSDj2gC9j6nNrnzCsg4aY6bHMLsT9nUhEw";
         nStartMasternodePayments = 1552294334; //Wed, 25 Jun 2014 20:36:16 GMT
 
@@ -213,7 +213,7 @@ public:
 
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         bnStartWork = bnProofOfWorkLimit;
-        
+
         vAlertPubKey = ParseHex("046bdc4847d0d75d67eeb1d3408823ac43508121410803422c61fb498ff33aa846902447a85e1bd31430bdfc9bb1cf841d9968cdb0384be9c86c9471f45f430a90");
         nDefaultPort = 11777;
         nEnforceBlockUpgradeMajority = 51;

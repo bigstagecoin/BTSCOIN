@@ -43,9 +43,3 @@ details of their operating practices.
 7. A reachable email contact address must be published for inquiries
 related to the DNS seed operation.
 
-Behavior outside of these expectations may be reasonable in some
-situations but should be discussed in public in advance.
-
-See also
-----------
-- [bitcoin-seeder](https://github.com/sipa/bitcoin-seeder) is a reference implementation of a DNS seed.
